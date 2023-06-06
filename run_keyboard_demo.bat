@@ -1,0 +1,1 @@
+robot_gui.exe "python Demo\keyboard_demo.py" -m maps\2.txt

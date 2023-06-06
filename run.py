@@ -36,7 +36,7 @@ def all_one_map():
         all_score += tem_score
         print(f"{seed * 100}: {tem_score}")
     print(all_score / seed_num)
-  
+
 def run():
     tem_score = 0
     result = os.popen(f'Robot_gui.exe -m new_maps/3.txt -s 100 -c {root} "python main.py"')
